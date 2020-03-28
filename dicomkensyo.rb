@@ -2,6 +2,8 @@ require 'fileutils'
 require 'dicom'
 include DICOM
 
+#Git test modification
+
 class DicomKensyo
   def initialize(dcm_path = "./US000001", num_copy = 0)
     @dcm_path = dcm_path
